@@ -13,11 +13,11 @@ function setup() {
     blendMode(REPLACE);
     //
     circles = populateCircles(300);
-    drawBg = true;
+    drawBg = false;
     bkColor = 0;
     drawStroke = false;
-    minRadius = 5;
-    maxRadius = 15;
+    minRadius = 3;
+    maxRadius = 3;
     maxOutset = height - 250;
     minOutset = -200;
     set = mandlebrot(width, height, 50);
