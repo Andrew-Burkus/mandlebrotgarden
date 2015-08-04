@@ -21,10 +21,10 @@ function setup() {
     maxOutset = height - 250;
     minOutset = -200;
     set = mandlebrot(width, height, 50);
+    background(bkColor, 0, 0, 0);
 }
 
 function draw() {
-    if(drawBg) background(bkColor, 0, 0, 0);
     if(drawStroke) {
         stroke(0);
         strokeWeight(2.0);
